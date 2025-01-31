@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <h1>Добро пожаловать в личный кабинет!</h1>
+    <button onclick="logout()">Выйти</button>
+
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+        // Проверка авторизации
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.location.href = "/"; // Если не авторизован, вернуть на главную
+                }
+            });
+        }
+
+        // Выход из аккаунта
+        function logout() {
+            netlifyIdentity.logout();
+            window.location.href = "/"; // Возврат на главную после выхода
+        }
+    </script>
+</body>
+</html>

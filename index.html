@@ -1,0 +1,969 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="https://r.mobirisesite.com/1077708/assets/images/photo-1640301133815-4bec64fca33f.jpeg" type="image/x-icon">
+  <meta name="description" content="Revive RP предлагает уникальные возможности для игроков GTA 5, включая выбор профессий, взаимодействие с другими игроками и доступ к внутриигровым товарам.">
+  <title>Revive RP</title>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/web/assets/mobirise-icons/mobirise-icons.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/bootstrap/css/bootstrap.min.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/parallax/jarallax.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/dropdown/css/style.css?rnd=1736538961258">
+    <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/smart-cart/minicart-theme.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/socicon/css/styles.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/theme/css/style.css?rnd=1736538961258">
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/recaptcha.css?rnd=1736538961258">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="stylesheet" href="https://r.mobirisesite.com/1077708/assets/css/mbr-additional.css?rnd=1736538961258" type="text/css">
+  
+  
+  
+  
+
+
+<style>
+.navbar-fixed-top {
+  top: auto;
+}
+#mobiriseBanner.container-banner {
+  height: 8rem;
+  opacity: 1;
+  -webkit-animation: 16s linear animationHeight;
+  -moz-animation: 16s linear animationHeight;
+    -o-animation: 16s linear animationHeight;
+       animation: 16s linear animationHeight;
+       transition: all  0.5s;
+}
+#mobiriseBanner.container-banner.container-banner-closing {
+  pointer-events: none;
+  height: 0;
+  opacity: 0;
+  -webkit-animation: 0.5s linear animationClosing;
+  -moz-animation:  0.5s linear animationClosing;
+    -o-animation:  0.5s linear animationClosing;
+       animation:  0.5s linear animationClosing;
+}
+#mobiriseBanner .banner {
+  min-height: 8rem;
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  opacity:1;
+  -webkit-animation: 16s linear animationBanner;
+  -moz-animation: 16s linear animationBanner;
+    -o-animation: 16s linear animationBanner;
+       animation: 16s linear animationBanner;
+  z-index: 1031;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mobiriseBanner .banner p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  animation: none;
+  visibility: visible;
+}
+#mobiriseBanner .buy-license {
+  text-decoration: underline;
+}
+#mobiriseBanner .banner .btn {
+  margin: 0.3rem 0.5rem;
+  animation: none;
+  visibility: visible;
+}
+.navbar.opened {
+    z-index: 1032;
+}
+@-webkit-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-moz-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-o-keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+   @keyframes animationBanner { 0% { opacity: 0; top: -8rem; } 94% { opacity: 0; top: -8rem; } 100% { opacity: 1; top: 0; } }
+@-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+@-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+   @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 8rem; } }
+
+@-webkit-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-moz-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@-o-keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+@keyframes animationClosing { 0% { height: 8rem; opacity: 1; } 30% { height: 8rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+
+@media(max-width: 767px) {
+  #mobiriseBanner.container-banner {
+    height: 12rem;
+  }
+  #mobiriseBanner .banner {
+    min-height: 12rem;
+  }
+  @-webkit-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-moz-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-o-keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+    @keyframes animationBanner { 0% { opacity: 0; top: -12rem; } 94% { opacity: 0; top: -12rem; } 100% { opacity: 1; top: 0; } }
+  @-webkit-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-moz-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+  @-o-keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+    @keyframes animationHeight { 0% { height: 0; } 94% { height: 0; } 100% { height: 12rem; } }
+
+  @-webkit-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-moz-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+  @-o-keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} }
+ @keyframes animationClosing { 0% { height: 12rem; opacity: 1; } 30% { height: 12rem; opacity: 0.5;} 100% { height: 0; opacity: 0;} } 
+} 
+</style> 
+</head> 
+<body> 
+
+  <section data-bs-version="5.1" class="menu menu2 cid-uzpRsse3eB" once="menu" id="menu-5-uzpRsse3eB">
+    
+    <!-- Убираем текст "Добро пожаловать на сайт" -->
+    
+    <!-- Блок с кнопками для неавторизованного пользователя -->
+    <div id="guest-buttons">
+        <button onclick="login()">Войти</button>
+        <button onclick="register()">Зарегистрироваться</button>
+    </div>
+
+    <!-- Блок с кнопками и информацией для авторизованного пользователя -->
+    <div id="auth-buttons" style="display: none;">
+        <button onclick="logout()">Выйти</button>
+        <p id="user-info"></p>
+    </div>
+
+    <!-- Другие элементы страницы (например, контент сайта) -->
+    <section class="content">
+        <!-- Твой остальной контент будет здесь -->
+    </section>
+
+    <!-- Подключаем виджет Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script>
+        // Проверка доступности Netlify Identity
+        if (window.netlifyIdentity) {
+            console.log("Netlify Identity подключен успешно.");
+            
+            // Инициализация виджета Netlify Identity
+            window.netlifyIdentity.on("init", user => {
+                if (user) {
+                    console.log("Пользователь авторизован:", user.email);
+                    // Если пользователь авторизован, показываем информацию
+                    document.getElementById("guest-buttons").style.display = "none";
+                    document.getElementById("auth-buttons").style.display = "block";
+                    document.getElementById("user-info").innerText = "Вы вошли как: " + user.email;
+                    window.location.href = "/dashboard.html"; // Перенаправление на dashboard после входа
+                } else {
+                    console.log("Пользователь не авторизован.");
+                    // Если пользователь не авторизован
+                    document.getElementById("guest-buttons").style.display = "block";
+                    document.getElementById("auth-buttons").style.display = "none";
+                }
+            });
+
+            // Функция для входа
+            window.login = function() {
+                console.log("Открываем окно для входа.");
+                netlifyIdentity.open();
+            }
+
+            // Функция для регистрации (работает так же, как и вход)
+            window.register = function() {
+                console.log("Открываем окно для регистрации.");
+                netlifyIdentity.open(); // Для регистрации и входа используется одинаковое окно
+            }
+
+            // Функция для выхода
+            window.logout = function() {
+                console.log("Выход из аккаунта.");
+                netlifyIdentity.logout();
+                document.getElementById("guest-buttons").style.display = "block";
+                document.getElementById("auth-buttons").style.display = "none";
+            }
+        } else {
+            console.log("Netlify Identity не найден.");
+        }
+    </script>
+  
+</body>
+</html>
+
+  <section data-bs-version="5.1" class="menu menu2 cid-uzpRsse3eB" once="menu" id="menu-5-uzpRsse3eB">
+	
+
+	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+		<div class="container">
+			<div class="navbar-brand">
+				<span class="navbar-logo">
+					<a href="#">
+						<img src="https://r.mobirisesite.com/1077708/assets/images/photo-1640301133815-4bec64fca33f.jpeg" alt="" style="height: 4.3rem;">
+					</a>
+				</span>
+				<span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-4" href="https://reviverp.netlify.app/">Revive</a></span>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
+						<a class="nav-link link text-black text-primary display-4" href="https://reviverp.netlify.app/">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black text-primary display-4" href="https://reviverp.netlify.app/" aria-expanded="false">Возможности</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link text-black text-primary display-4" href="https://reviverp.netlify.app/">Инструкция</a>
+					</li></ul>
+				
+				<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="https://reviverp.netlify.app/">Начать играть</a></div>
+			</div>
+		</div>
+	</nav>
+</section>
+
+<section data-bs-version="5.1" class="header16 cid-uzpRssfrpp mbr-fullscreen mbr-parallax-background" id="hero-17-uzpRssfrpp">
+  
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="content-wrap col-12 col-md-12">
+        <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <strong>Revive RP</strong>
+        </h1>
+        
+        <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-4">Погрузитесь в мир ролевых приключений в GTA 5!</p>
+        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="page1.html"><span class="mbri-play mbr-iconfont mbr-iconfont-btn"></span>Присоединяйтесь сейчас</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="header18 cid-uzpRssfSV6 mbr-fullscreen mbr-parallax-background" id="video-5-uzpRssfSV6">
+  
+
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: rgb(0, 0, 0);"></div>
+  <div class="container-fluid">
+    <div class="row">
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features03 cid-uzpRssfiiR" id="news-1-uzpRssfiiR">
+  
+  
+  <div class="container-fluid">
+    <div class="row justify-content-center mb-5">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head">
+          <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <strong>Последние новости Revive RP</strong>
+          </h4>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="item features-image col-12 col-md-6 col-lg-3 active">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1506865952017-eba174539-h_m5ptny1g.jpg" alt="" title="">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+              <strong>Создание сайта</strong></h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">2025-01-09</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Сайт Revive RP запущен! Присоединяйтесь к нам и погружайтесь в мир ролевых приключений!</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">Играть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1486572788966-cfd3df1f5-h_m5pu09xf.jpg" alt="" title="" data-slide-to="1" data-bs-slide-to="1">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Команда</strong></h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">2024-25-12</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Создание нашей команды Матвей и Егор.</p>
+            <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Играть</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1498736297812-3a08021f206f.jpeg" alt="" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5">
+              <strong>Свободно</strong></h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">2025-20-25</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Свободная страничка для новостей</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">Играть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item features-image col-12 col-md-6 col-lg-3">
+        <div class="item-wrapper">
+          <div class="item-img mb-3">
+            <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1555864326-5cf22ef123cf.jpeg" alt="" title="" data-slide-to="2" data-bs-slide-to="2">
+          </div>
+          <div class="item-content align-left">
+            <h5 class="item-title mbr-fonts-style mb-2 mt-0 display-5"><strong>Реклама&nbsp;</strong></h5>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">2025-20-25</p>
+            <p class="mbr-text mbr-fonts-style mb-3 display-7">Здесь может быть твоя реклама!</p>
+            <div class="mbr-section-btn item-footer">
+              <a href="" class="btn item-btn btn-primary display-7">Играть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="list1 cid-uzpRssgqKL" id="faq-1-uzpRssgqKL">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-10 m-auto">
+                <div class="content">
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-12 content-head">
+                            <div class="mbr-section-head">
+                                <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                                    <strong>Часто задаваемые вопросы</strong>
+                                </h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="bootstrap-accordion_4" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_4" aria-expanded="false" aria-controls="collapse1">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Как начать играть в Revive RP?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse1_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Просто нажмите кнопку «Присоединяйтесь сейчас» или «Начать играть» на главной странице и следуйте инструкциям!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_4" aria-expanded="false" aria-controls="collapse2">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Где скачать лаунчер?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse2_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Лаунчер доступен на нашем сайте в разделе «Инструкция».</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_4" aria-expanded="false" aria-controls="collapse3">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Как пополнить счет?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse3_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Вы можете пополнить счет через раздел «Пополнение» на сайте.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_4" aria-expanded="false" aria-controls="collapse4">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Как связаться с поддержкой?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse4_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Напишите нам в Discord или на электронную почту, мы всегда на связи!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="headingOne">
+                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_4" aria-expanded="false" aria-controls="collapse5">
+                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">Есть ли форум для общения?</h6>
+                                    <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+                                </a>
+                            </div>
+                            <div id="collapse5_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_4">
+                                <div class="panel-body">
+                                    <p class="mbr-fonts-style panel-text display-7">Да, у нас есть форум, где вы можете общаться с другими игроками!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image02 cid-uzpRssiC78 mbr-fullscreen mbr-parallax-background" id="image-13-uzpRssiC78">
+    
+    
+    <div class="container">
+        <div class="row"></div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery4 cid-uzpRssiJ9K" id="gallery-12-uzpRssiJ9K">
+  
+  
+  <div class="container-fluid gallery-wrapper">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-container-1" style="transform: translate3d(-200px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1612117229486-78abff6d84c3.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1528870884180-5649b20f6435.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1511512578047-dfb367046420.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1507457379470-08b800bebc67.jpeg" alt="">
+        </div>
+      </div>
+      <div class="grid-container-2" style="transform: translate3d(-70px, 0px, 0px);">
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1640955014216-75201056c829.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1657664072470-99b02c2143f2.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1635514569146-9a9607ecf303.jpeg" alt="">
+        </div>
+        <div class="grid-item">
+          <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1493711662062-fa541adb3fc8.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="people07 cid-uzpRssi4re" id="testimonials-8-uzpRssi4re">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-8">
+                <p class="card-text mbr-fonts-style display-5">Revive RP — это лучший ролевой проект, в который я когда-либо играл!</p>
+                <div class="img-wrapper mt-3 justify-content-center">
+                    <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1656338997878-279d71d48f6e.jpeg" alt="" data-slide-to="0" data-bs-slide-to="0">
+                </div>
+                <p class="card-title mbr-fonts-style mt-3 display-7">
+                    <strong>Алексей</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="pricing1 cid-uzpRssiO1k" id="pricing-cards-1-uzpRssiO1k">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Пополнение счета</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb active">
+                <div class="item-wrapper">
+                    <div class="item-head">
+                        <h5 class="item-title mbr-fonts-style mb-0 display-5">
+                            <strong>Базовый</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+                            <strong>4.99</strong>/раз
+                        </h6>
+                    </div>
+                    <div class="item-content">
+                        <p class="mbr-text mbr-fonts-style display-7">Пополнение для новичков, чтобы начать свое приключение!</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer"><a href="" class="btn item-btn btn-primary display-7">Купить</a></div>
+                </div>
+            </div>
+            <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+                <div class="item-wrapper">
+                    <div class="item-head">
+                        <h5 class="item-title mbr-fonts-style mb-0 display-5">
+                            <strong>Стандартный</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+                            <strong>9.99</strong>/раз
+                        </h6>
+                    </div>
+                    <div class="item-content">
+                        <p class="mbr-text mbr-fonts-style display-7">Для тех, кто готов к более серьезным вызовам!</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer">
+                        <a href="" class="btn item-btn btn-primary display-7">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+                <div class="item-wrapper">
+                    <div class="item-head">
+                        <h5 class="item-title mbr-fonts-style mb-0 display-5">
+                            <strong>Премиум</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+                            <strong>19.99</strong>/раз
+                        </h6>
+                    </div>
+                    <div class="item-content">
+                        <p class="mbr-text mbr-fonts-style display-7">Все возможности для настоящих геймеров!</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer">
+                        <a href="" class="btn item-btn btn-primary display-7">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item features-without-image col-12 col-md-6 col-lg-3 item-mb">
+                <div class="item-wrapper">
+                    <div class="item-head">
+                        <h5 class="item-title mbr-fonts-style mb-0 display-5">
+                            <strong>Ультра</strong>
+                        </h5>
+                        <h6 class="item-subtitle mbr-fonts-style mt-0 mb-0 display-7">
+                            <strong>49.99</strong>/раз
+                        </h6>
+                    </div>
+                    <div class="item-content">
+                        <p class="mbr-text mbr-fonts-style display-7">Для тех, кто хочет стать легендой!</p>
+                    </div>
+                    <div class="mbr-section-btn item-footer">
+                        <a href="" class="btn item-btn btn-primary display-7">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="clients04 cid-uzpRssm2NH" id="partners-1-uzpRssm2NH">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head">
+                    <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Наши партнеры</strong>
+                    </h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2 active">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1554463529-e27854014799.jpeg" alt="" title="" data-slide-to="1" data-bs-slide-to="1">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1651044450619-5ce74d316987.jpeg" alt="" title="" data-slide-to="2" data-bs-slide-to="2">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1579041925709-798d7d0fed1d.jpeg" alt="" title="" data-slide-to="3" data-bs-slide-to="3">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1529612700005-e35377bf1415.jpeg" alt="" title="" data-slide-to="4" data-bs-slide-to="4">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1681415851723-dca11d0ec9a6.jpeg" alt="" title="" data-slide-to="5" data-bs-slide-to="5">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item features-image col-12 col-md-6 col-sm-6 col-lg-2">
+                <div class="item-wrapper">
+                    <div class="">
+                        <img src="https://r.mobirisesite.com/1077708/assets/images/photo-1651853082689-706323a31427.jpeg" alt="" title="" data-slide-to="6" data-bs-slide-to="6">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features10 cid-uzpRssnyjK" id="metrics-2-uzpRssnyjK">
+  
+
+  
+  
+  <div class="container">
+    
+    <div class="row justify-content-center">
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>5000</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">игроков онлайн</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>100</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">профессий доступно</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="item features-without-image col-12 col-md-6 col-lg-4">
+        <div class="item-wrapper">
+          <div class="card-box align-left">
+            
+            <p class="card-title mbr-fonts-style mb-3 display-1">
+              <strong>24/7</strong>
+            </p>
+            <p class="card-text mbr-fonts-style mb-3 display-7">поддержка игроков</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="gallery10 cid-uzpRssnhAb" id="features-61-uzpRssnhAb">
+  
+
+
+  <div class="container-fluid">
+
+      <div class="loop-container">
+        <div class="item display-1" data-linewords="Уникальные профессии * Интерактивный интерфейс * Поддержка 24/7 * Медиа-контент * Форум сообщества * Легкий старт *" data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+
+        <div class="item display-1" data-linewords="Уникальные профессии * Интерактивный интерфейс * Поддержка 24/7 * Медиа-контент * Форум сообщества * Легкий старт *" data-direction="-1" data-speed="0.05">☁️ Best offers ☁️ Free delivery ☁️ Perfect design ☁️ Comfort ☁️ Support 24/7 ☁️ Vibes</div>
+      </div>
+    
+  </div>
+</section>
+
+<section data-bs-version="5.1" class="features035 cid-uzpRssnK4e" id="call-to-action-11-uzpRssnK4e">
+    
+
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-9 active">
+                <div class="item-wrapper">
+                    <div class="card-box">
+                        <h4 class="card-text mbr-fonts-style display-7">Присоединяйтесь к нам и начните свое приключение в GTA 5!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 active">
+                <div class="mbr-section-btn"><a class="btn btn-primary display-7" href="https://reviverp.netlify.app/">Начать играть</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="social4 cid-uzpRssnXDE" id="follow-us-1-uzpRssnXDE">
+    
+    
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-5 mbr-fonts-style display-2">
+                    <strong>Следите за нами!</strong>
+                </h3>
+                <div class="social-list align-center">
+                    <a class="iconfont-wrapper bg-facebook m-2 " target="_blank" href="#">
+                        <span class="socicon-facebook socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-twitter m-2" href="#" target="_blank">
+                        <span class="socicon-twitter socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper bg-instagram m-2" href="#" target="_blank">
+                        <span class="socicon-instagram socicon"></span>
+                    </a>
+                    
+                    
+                    
+                    
+                    
+                    <a class="iconfont-wrapper bg-tiktok m-2" href="#" target="_blank">
+                        <span class="socicon-tiktok socicon"></span>
+                    </a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form5 cid-uzpRssoND4" id="contact-form-3-uzpRssoND4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 content-head">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Свяжитесь с нами</strong>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 mx-auto mbr-form">
+                <form id="contact-form">
+                    <div class="dragArea row">
+                        <div class="col-md col-sm-12 form-group mb-3">
+                            <input type="text" name="name" placeholder="Имя" required class="form-control" id="name-contact-form">
+                        </div>
+                        <div class="col-md col-sm-12 form-group mb-3">
+                            <input type="email" name="email" placeholder="Email" required class="form-control" id="email-contact-form">
+                        </div>
+                        <div class="col-12 form-group mb-3">
+                            <input type="tel" name="phone" placeholder="Телефон" required class="form-control" id="phone-contact-form">
+                        </div>
+                        <div class="col-12 form-group mb-3">
+                            <textarea name="message" placeholder="Сообщение" required class="form-control" id="message-contact-form"></textarea>
+                        </div>
+                        <div class="col-lg-12 align-center mbr-section-btn">
+                            <button type="submit" id="submit-button" class="btn btn-primary display-7">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const form = event.target;
+        const formData = new FormData(form);
+        const submitButton = document.getElementById("submit-button");
+        const phoneInput = document.getElementById("phone-contact-form");
+        const phonePattern = /^\+?\d{10,15}$/;  // Валидация номера телефона
+
+        submitButton.textContent = "Отправка...";
+        submitButton.disabled = true;
+
+        // Проверка номера телефона перед отправкой
+        if (!phonePattern.test(phoneInput.value)) {
+            setTimeout(() => {
+                submitButton.textContent = "Ошибка!";
+                submitButton.disabled = false;
+            }, 1000);
+            return;
+        }
+
+        // Отправка данных на Formspree
+        fetch("https://formspree.io/f/xannaoev", {
+            method: "POST",
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                setTimeout(() => {
+                    submitButton.textContent = "Готово!";
+                    form.reset();
+                }, 1000);
+            } else {
+                throw new Error();
+            }
+        })
+        .catch(() => {
+            setTimeout(() => {
+                submitButton.textContent = "Ошибка!";
+            }, 1000);
+        })
+        .finally(() => {
+            setTimeout(() => {
+                submitButton.textContent = "Отправить";
+                submitButton.disabled = false;
+            }, 3000);
+        });
+    });
+</script>
+
+<section data-bs-version="5.1" class="contacts4 map1 cid-uzpRssofwf" id="contacts-3-uzpRssofwf">
+
+	
+
+    <div class="main_wrapper">
+		<div class="b_wrapper">
+			<div class="container-fluid">
+				<div class="row justify-content-start">
+					<div class="col-md-5 col-lg-4 item-wrapper">
+                        <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
+                            <strong>Контакты</strong>
+                        </h5>
+                        <ul class="list mbr-fonts-style display-7">
+                            <li class="mbr-text item-wrap">
+                            Телефон: +375 33 319 77 22</li>
+
+                            <li class="mbr-text item-wrap">WhatsApp: 
+                            <a href="tel:+375 33 319 77 22" class="text-black">+</a>375 33 319 77 22</li> 
+
+                            <li class="mbr-text item-wrap">                            
+                            Email:
+                            <a href="mailto:matvejegor01@mail.ru" class="text-black">support@reviverp.com</a>                        
+                            </li>
+
+                            <li class="mbr-text item-wrap">                        
+                            Адрес:
+                            Vitebsk Belarus
+                            </li>
+
+                            <li class="mbr-text item-wrap">
+                            Часы работы:
+                            Пн-Вс: 24/7
+                            </li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt1265A4qvZy9HKUeA8J15AOC4SrCyZe4&amp;q=Vitebsk%20Belarus" allowfullscreen=""></iframe></div>
+	</div>
+</section>
+
+<section data-bs-version="5.1" class="footer2 cid-uzpRssobnC" once="footers" id="footer-5-uzpRssobnC">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 center mt-2 mb-3">
+                <p class="mbr-fonts-style copyright mb-0 display-7">© 2025 Revive RP. Все права защищены.</p>
+            </div>
+            <div class="col-12 col-lg-6 center">
+                <div class="row-links mt-2 mb-3">
+                    <ul class="row-links-soc">
+                        
+                        
+                        
+                        
+                    <li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Политика</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Поддержка</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Форум</a>
+                        </li><li class="row-links-soc-item mbr-fonts-style display-7">
+                            <a href="#" class="text-white">Контакты</a>
+                        </li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="https://r.mobirisesite.com/1077708/assets/web/assets/jquery/jquery.min.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/parallax/jarallax.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/smoothscroll/smooth-scroll.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/ytplayer/index.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/dropdown/js/navbar-dropdown.js?rnd=1736538961259"></script>
+      <script src="https://r.mobirisesite.com/1077708/assets/smart-cart/minicart.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/smart-cart/minicart-customizer.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/mbr-switch-arrow/mbr-switch-arrow.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/scrollgallery/scroll-gallery.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/theme/js/script.js?rnd=1736538961259"></script>
+  <script src="https://r.mobirisesite.com/1077708/assets/formoid.min.js?rnd=1736538961259"></script>
+    
+  
+
+</body>
+</html>

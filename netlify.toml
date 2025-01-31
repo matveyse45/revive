@@ -1,0 +1,12 @@
+[build]
+publish = "."  # Указываем корень проекта
+
+[[redirects]]
+from = "/dashboard"  # Для маршрута /dashboard
+to = "/dashboard.html"  # Перенаправляем на страницу dashboard.html
+status = 200
+
+[[redirects]]
+from = "/*"  # Перенаправляем все остальные маршруты на index.html
+to = "/index.html"
+status = 200
